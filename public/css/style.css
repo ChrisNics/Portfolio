@@ -68,11 +68,13 @@ body {
   cursor: pointer;
 }
 .nav__logo {
+  color: var(--black);
+  text-decoration: none;
   font-size: 2rem;
   transition: all 0.2s;
 }
 .nav__logo:hover {
-  color: var(--black);
+  color: var(--orange);
 }
 .nav__list {
   list-style: none;
@@ -670,6 +672,8 @@ span {
   }
 }
 .footer__logo {
+  color: var(--black);
+  text-decoration: none;
   cursor: pointer;
   font-size: 2rem;
   transition: all 0.2s;

@@ -35,8 +35,8 @@ html(lang="en")
         title My Portfolio
     body
 
-        nav.nav
-            .nav__logo.valorant Christian
+        nav.nav#nav
+            a.nav__logo.valorant(href='#nav') Christian
             ul.nav__list
                 +createLinks('Projects','#projects')
                 +createLinks('Skills','#skills')
@@ -140,7 +140,7 @@ html(lang="en")
                     .abs-square
         
         footer.footer 
-            .footer__logo.valorant Christian
+            a.footer__logo.valorant(href='#nav') Christian
             ul.footer__list 
                 li.footer__item: a.footer__link(href='#projects') Projects
                 li.footer__item: a.footer__link(href='#skills') Skills
