@@ -691,6 +691,7 @@ span {
   }
 }
 .footer__link {
+  color: var(--black);
   text-decoration: none;
   cursor: pointer;
 }

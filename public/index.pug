@@ -41,7 +41,6 @@ html(lang="en")
                 +createLinks('Projects','#projects')
                 +createLinks('Skills','#skills')
                 +createLinks('Story', '#about-me')
-                +createLinks('Download CV')
             .nav__burger
             .nav__burger__background
 
@@ -143,11 +142,9 @@ html(lang="en")
         footer.footer 
             .footer__logo.valorant Christian
             ul.footer__list 
-                li.footer__item: a.footer__link Home
-                li.footer__item: a.footer__link Portfolio 
-                li.footer__item: a.footer__link Services
-                li.footer__item: a.footer__link Contact Me 
-                li.footer__item: a.footer__link About Me
+                li.footer__item: a.footer__link(href='#projects') Projects
+                li.footer__item: a.footer__link(href='#skills') Skills
+                li.footer__item: a.footer__link(href='#about-me') Story
             .footer__copyright
                 | © 2022 by Christian Nicolas.
             
