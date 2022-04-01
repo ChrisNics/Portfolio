@@ -27,4 +27,11 @@ app.get("/", (req, res) => {
 
 app.listen(process.env.PORT || 5000);
 
+process.on("SIGTERM", () => {
+  console.log("SIGTERM RECEIVED. Shutting down gracefully");
+  server.close(() => {
+    console.log("Process terminated!");
+  });
+});
+
 // Next one is successfull message if the email sa actually sent.
