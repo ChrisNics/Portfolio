@@ -1,0 +1,156 @@
+
+mixin createLinks(textnav, target)
+    li(class='nav__item')
+        a(class='nav__link' href=`${target}`)= textnav 
+
+mixin createGallery(link,image,className, title)
+    figure.figure
+        img(src=`${image}`, class=`${className}__image`)
+        if className === 'projects'
+            a(href=`${link}`)
+                figcaption.projects__caption.cta 
+                    | View Repository                
+            h4.abs-caption.heading-3= title
+                
+
+doctype html
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge', user-scalable='no')
+        meta(name='viewport', content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+        link(rel='stylesheet', href='/css/style.css',  type='text/css')
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href="http://fonts.cdnfonts.com/css/valorant" rel="stylesheet")    
+        link(href='https://fonts.googleapis.com/css2?family=Lilita+One&display=swap' rel='stylesheet')
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet')
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+
+
+
+
+        title My Portfolio
+    body
+
+        nav.nav
+            .nav__logo.valorant Christian
+            ul.nav__list
+                +createLinks('Projects','#projects')
+                +createLinks('Skills','#skills')
+                +createLinks('Story', '#about-me')
+                +createLinks('Download CV')
+            .nav__burger
+            .nav__burger__background
+
+
+            button.cta.cta--nav Hire Me
+        .pop-up
+            ul.pop-up__list
+                +createLinks('Projects','#projects')
+                +createLinks('Skills','#skills')
+                +createLinks('Story', '#about-me')
+                +createLinks('Download CV')
+
+        .abs-form
+            .abs-form__content
+                .abs-form__content__img
+                    img(src="/img/email.png", alt="")
+                .abs-form__content__content
+                    h3.heading-3 Thanks! 
+                    h5.heading-5 Please put your email, so I can connect with you.
+                    form.form
+                        input.inputEmail(type="email", placeholder='Email Address' )
+                        button.cta.buttonForm 
+                            i.spinner
+                            h5.heading-5.spinnerText Send
+                            svg.checkmark(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 52 52')
+                                circle.checkmark__circle(cx='26' cy='26' r='25' fill='none')
+                                path.checkmark__check(fill='none' d='M14.1 27.2l7.1 7.2 16.7-16.8')
+                            
+        main.main
+            .main__content
+                h3.heading-3 
+                    | I am 
+                    span
+                        | Christian Nicolas 
+                    | I am a Full Stack Developer 
+                h5.heading-5 Welcome to my official portfolio website, where I post all of my work relevant to my area of specialty, as well as a variety of other topics.
+                a.cta(href="https://download939.mediafire.com/vp2bz2aea6zg/flzy0ontiqd3hsu/Christian_Nicolas_CV.pdf" download) Download CV 
+                .socmed 
+                    a(href="https://www.facebook.com/BLGKingdom") 
+                        img(src='/img/facebook.svg')
+                    a(href="https://twitter.com/rocksmeb") 
+                        img(src='/img/twitter.svg')
+                    a(href="https://github.com/ChrisNics") 
+                        img(src='/img/github.svg')
+            .main__img
+                img.main__img--1(src='/img/selfie.jpg', alt="My self")
+                img.main__img--2(src='/img/selfie-1.jpg', alt="My self")
+
+
+
+        section.projects#projects 
+            h3.heading-3.valorant Projects 
+            h6.heading-6 
+                | Please check my portfolio. All project is clean and simplicity
+                | modern style.
+            .projects__gallery
+                +createGallery('https://github.com/ChrisNics/natours', '/img/proj-1.png', 'projects', 'Natours')
+                +createGallery('https://github.com/ChrisNics/Bookmark-landing-page', '/img/proj-2.png', 'projects', 'Bookmark Landing Page')
+                +createGallery('https://github.com/ChrisNics/BMI-Calculator', '/img/proj-3.png', 'projects', 'BMI Estimator')
+                +createGallery('https://github.com/ChrisNics/Inventory-Management-App', '/img/proj-4.png', 'projects', 'Inventory Management App')
+
+
+        section.skills#skills
+            h3.heading-3.valorant My Skills
+            h6.heading-6 
+                | Front-end and back-end development are my main areas of competence.
+            .skills__gallery
+                +createGallery('#', '/img/html.png','skills')
+                +createGallery('#', '/img/javascript.png','skills')
+                +createGallery('#', '/img/css.png','skills')
+                +createGallery('#', '/img/mongodb.png','skills')
+                +createGallery('#', '/img/node.png','skills')
+                +createGallery('#', '/img/express.png','skills')
+                +createGallery('#', '/img/pug.png','skills')
+                +createGallery('#', '/img/java.png','skills')
+
+        section.about-me#about-me
+            h4.heading-4.valorant My Story 
+            h3.heading-3 About 
+            .about-me__container 
+                .about-me__content
+                    p
+                        | Christian Nicolas is a programming enthusiast who is pursuing a Bachelor of Science in Information Systems.
+                        | He enjoys developing web applications because it gives him a sense of accomplishment each time he completes one.
+                        | He also studied things like pug, a templating engine, and backend tools like Nodejs, Mongodb, and Express.
+                        | He was  well-versed in all of them.
+                    br
+                    p
+                        | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse asperiores, modi illo maiores id laboriosam vitae nisi quae beatae aut earum cupiditate voluptates vero maxime animi doloribus dignissimos quisquam? Architecto ut, asperiores quia, totam laudantium fugiat atque magni nihil maxime a veniam quasi rerum labore, rem sint accusantium ipsum similique?
+                    br
+                    p
+                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloribus voluptatibus excepturi nobis ex modi quibusdam reiciendis eius, rem aliquam eveniet adipisci optio neque sapiente beatae repellat voluptate dolores amet.
+                        
+
+                .about-me__img
+                    img(src="/img/about-me.jpg", alt="myself")
+                    .abs-square
+        
+        footer.footer 
+            .footer__logo.valorant Christian
+            ul.footer__list 
+                li.footer__item: a.footer__link Home
+                li.footer__item: a.footer__link Portfolio 
+                li.footer__item: a.footer__link Services
+                li.footer__item: a.footer__link Contact Me 
+                li.footer__item: a.footer__link About Me
+            .footer__copyright
+                | © 2022 by Christian Nicolas.
+            
+                     
+        script(src="https://unpkg.com/axios/dist/axios.min.js")
+        script(defer src="/index.js" type="module") 

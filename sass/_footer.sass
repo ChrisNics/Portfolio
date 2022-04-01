@@ -1,0 +1,48 @@
+.footer
+    font-size: 1.2rem
+    padding: 5rem
+    font-family: var(--font-secondary)
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr))
+    grid-row-gap: 1rem
+
+    
+    
+    @media only screen and (max-width: $bp-sm)
+        justify-items: center
+        grid-template-columns: none
+        grid-template-rows: repeat(3, minmax(min-content, max-content))
+        grid-row-gap: 5rem
+
+    &__logo
+        cursor: pointer
+        font-size: 2rem
+        transition: all .2s
+        &:hover
+            color: var(--orange)
+        
+    &__list
+        width: 100%
+
+        display: grid
+        grid-auto-flow: column
+        grid-column-gap: 2rem
+        list-style: none
+        justify-items: end
+        @media only screen and (max-width: $bp-sm)
+            grid-row: 2 / 3
+    &__link
+        text-decoration: none
+        cursor: pointer
+        &:hover
+            color: var(--orange)
+            transition: all .2s
+    &__copyright
+        justify-self: end
+        grid-column: 2 / 3
+        @media only screen and (max-width: $bp-sm)
+            grid-row: 3 / 4
+            grid-column: 1 / 2
+            justify-self: center
+
+    

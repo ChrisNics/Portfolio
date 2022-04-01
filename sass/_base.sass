@@ -1,0 +1,57 @@
+\:root
+	--black: #18191A 
+	--white: #E7E9ED 
+	--orange: #F5841D
+	--gray: #303031 
+	--font-primary:  'Lilita One', cursive
+	--font-secondary : 'Roboto Slab', serif
+
+
+$bp-lg: 75em // 1200px
+$bp-md: 68.75em // 1100px
+$bp-sm: 56.25em // 900px
+$bp-smx1: 50em // 800px
+$bp-smx2: 31.25em // 500px
+
+
+// for skills media queries
+$bp-skills: 77.45em
+$bp-skills-1: 42.4375em
+
+// for about me
+$bp-about-me: 62.5em // 1000
+
+*,
+*::before,
+*::after 
+	margin: 0 
+	padding: 0 
+	box-sizing: inherit 
+html 
+	box-sizing: border-box 
+	font-size: 62.5%
+	overflow-x: hidden
+	scroll-behavior: smooth
+
+	@media only screen and (max-width: $bp-md) 
+		font-size: 50%
+body 
+	margin: 0 10rem
+	font-family: var(--font-primary)
+	font-size: 1.6rem
+	color: var(--black)
+	font-weight: 300 
+	line-height: 1.6
+	overflow-x: hidden
+
+	display: grid
+
+	@media only screen and (max-width: $bp-smx1)
+		margin: 0 auto
+	
+	& > *
+		@media only screen and (max-width: $bp-smx1)
+			padding: 0 3rem
+
+		
+			

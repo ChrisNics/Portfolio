@@ -1,0 +1,97 @@
+.main
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    align-items: start
+    margin-bottom: 20rem
+
+    
+    @media only screen and (max-width: $bp-sm)
+        text-align: center
+        grid-template-columns: minmax(min-content,max-content)
+        grid-template-rows:  minmax(min-content, 60rem) minmax(min-content,max-content)
+        
+        
+
+    &__content
+        padding-top: 10rem
+
+        display: grid
+        grid-row-gap: 3rem
+
+        @media only screen and (max-width: $bp-sm)
+            grid-row: 2 / 3
+        
+        & .heading-3
+            width: 70%
+            @media only screen and (max-width: $bp-sm)
+                width: 100%
+
+        & .heading-5
+            width: 70%
+            @media only screen and (max-width: $bp-sm)
+                width: 100%
+
+        & .cta
+            justify-self: start
+            @media only screen and (max-width: $bp-sm)
+                justify-self: center
+        
+        .socmed
+            justify-self: start
+
+            display: grid
+            grid-auto-flow: column
+            grid-column-gap: 3.6rem
+
+            @media only screen and (max-width: $bp-smx1)
+                justify-self: center
+
+            & > *:hover
+                cursor: pointer
+                filter: invert(62%) sepia(40%) saturate(3672%) hue-rotate(349deg) brightness(100%) contrast(93%)
+                
+
+        
+    &__img
+        position: relative
+        height: 100%
+        
+        display: grid
+        grid-column-gap: 5rem
+
+        & > *
+            z-index: -2
+            position: absolute
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)
+            
+        
+        &--1
+            top: -10rem
+            width: 30rem
+            @media only screen and (max-width: $bp-lg) 
+                left: -50px
+            @media only screen and (max-width: $bp-sm)
+                top: 0
+                left: 13vw
+            @media only screen and (max-width: $bp-smx1)
+                left: 0
+                right: 0
+                margin: auto
+                clip-path: none
+                
+        &--2
+            width: 90%
+            left: 250px
+            width: 30rem
+            @media only screen and (max-width: $bp-lg) 
+                left: 205px
+            @media only screen and (max-width: $bp-md) 
+                left: 169px
+            @media only screen and (max-width: $bp-sm)
+                left: auto
+                right: 13vw
+            @media only screen and (max-width: $bp-smx1) 
+                display: none
+
+
+        

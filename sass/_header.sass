@@ -1,0 +1,192 @@
+.nav
+    position: static
+    padding: 3rem 0
+    font-family: var(--font-secondary)
+    z-index: 2000
+
+    display: grid
+    grid-column-gap: 5rem
+    grid-auto-flow: column
+    justify-items: center
+    align-items: center
+
+
+    @media only screen and (max-width: $bp-md) 
+        grid-template-columns: repeat(3, minmax(min-content, 1fr))
+        
+
+    & > *
+        cursor: pointer
+
+    &__logo
+        font-size: 2rem
+        transition: all .2s
+        &:hover
+            color: var(--black)                                                
+    &__list
+        list-style: none
+        
+        display: grid
+        justify-items: center
+        justify-self: stretch
+        grid-template-columns: repeat(4, minmax(5rem, 1fr))
+        grid-auto-flow: column
+
+        @media only screen and (max-width: $bp-md) 
+            display: none
+
+    
+    &__burger
+        position: relative
+        height: 5px
+        width: 25px
+        background: var(--black)
+        display: none
+        z-index: 5
+
+        @media only screen and (max-width: $bp-md) 
+            display: block
+
+
+        &__background
+            position: fixed
+            height: 40px
+            width: 40px
+            background: var(--orange)
+            z-index: 1
+            border-radius: 50%
+            visibility: hidden
+            opacity: 0
+            transition: all .2s
+                
+         
+  
+        &::after,
+        &::before
+            content: ''
+            display: block
+            height: 5px
+            width: 25px
+            background: var(--black)
+        &::before
+            transform: translateY(-8px)
+        &::after
+            transform: translateY(3px)
+            
+
+    &__item
+
+    &__link
+
+        color: var(--black)
+        text-decoration: none
+
+        &:hover
+            color: var(--orange)
+            transition: all .2s
+    
+    button
+        @media only screen and (max-width: $bp-md) 
+            grid-column: 2 / 3
+
+
+.pop-up
+        position: fixed
+        display: grid
+        align-content: start
+        justify-content: center
+        background: var(--black)
+        height: 0
+        width: 100%
+        visibility: hidden
+        opacity: 0
+        transition: all .2s
+        z-index: 2000
+        color: var(--white)
+
+        &__list
+            list-style: none
+        
+            display: grid
+            grid-auto-rows: repeat(4, min-content)
+            margin-top: 7rem
+            grid-row-gap: 3rem
+
+            a
+                font-family: var(--font-secondary)
+                font-size: 4rem
+                color: var(--white)
+
+.abs-form
+    position: fixed
+    display: grid
+    align-content: center
+    justify-content: center
+    background: transparent
+    width: 100%
+    height: 100vh
+    visibility: hidden
+    opacity: 0
+    
+    z-index: 2000
+    transition: all .2s
+
+    &__content
+        background: var(--white)
+        height: 46rem 
+        width: 40rem
+        border-radius: 20%
+        overflow: hidden
+        
+
+        display: grid
+        grid-template-rows: repeat(2, minmax(min-content, 1fr))
+        &__img
+            background: var(--orange)
+            
+            display: grid
+            align-content: center
+            justify-content: center
+            img
+                width: 22rem
+        &__content
+            text-align: center
+
+            display: grid
+            justify-content: center
+            grid-auto-rows: min-content
+            grid-gap: 1rem
+
+            .heading-3
+                width: 100%
+            .heading-5
+                font-family: var(--font-secondary)
+                width: 100%
+
+            form 
+
+                display: grid
+                grid-row-gap: 2rem
+                justify-items: center
+
+                button
+                    transition: all
+                    visibility: hidden
+                    opacity: 0
+                    padding: 1rem 4rem
+
+                    &:hover
+                        background: var(--black)
+
+                        .spinnerText
+                            color: var(--orange)
+                        
+
+                    svg 
+                        display: none
+                input
+                    padding: 1rem
+                    border-radius: 1rem
+                    justify-self: stretch
+
+        
