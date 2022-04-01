@@ -6,7 +6,7 @@
   "scripts": {
     "watch:sass": "sass --no-source-map --watch sass/main.sass public/css/style.css",
     "devserver": "live-server public --port=8000",
-    "nodemon-watch": "nodemon app.js -e *",
+    "nodemon-watch": "node app.js -e *",
     "start": "npm-run-all --parallel watch:sass nodemon-watch",
     "compile:sass": "node-sass sass/main.sass css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.comp.css -o css/style.prefix.css",
