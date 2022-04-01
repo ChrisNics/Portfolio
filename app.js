@@ -25,6 +25,6 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.listen(8000);
+app.listen(process.env.PORT || 5000);
 
 // Next one is successfull message if the email sa actually sent.
