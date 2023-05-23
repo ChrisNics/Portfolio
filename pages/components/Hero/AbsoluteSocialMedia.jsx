@@ -23,10 +23,10 @@ const AbsoluteSocialMedia = () => {
   ];
 
   return (
-    <div className="absolute h-48 w-12 right-0 top-[200px]">
+    <div className="absolute right-0 top-[300px] h-48 w-12">
       <div className="flex flex-col gap-y-3">
         {socialMedia.map((s) => (
-          <Link href={s.link}>
+          <Link href={s.link} key={s.link}>
             <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'orange', to: 'red' }}>
               {s.icon}
             </ThemeIcon>

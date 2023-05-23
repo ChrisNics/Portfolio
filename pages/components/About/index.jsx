@@ -35,7 +35,7 @@ const demoCode = `const myInfo = {
 
 const About = () => {
   return (
-    <section className="min-h-screen bg-black">
+    <section id="about" className="min-h-screen bg-black">
       <div className="container mx-auto px-10 py-5">
         <h1 className="title">About Me</h1>
         <div>

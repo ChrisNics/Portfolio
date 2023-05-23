@@ -4,7 +4,7 @@
 
 @layer components {
   .title {
-    @apply mb-10 text-center text-xl text-neutral-400;
+    @apply mb-10 text-center text-xl text-neutral-400 xl:text-start;
   }
 }
 
