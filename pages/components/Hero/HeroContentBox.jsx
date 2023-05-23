@@ -10,7 +10,7 @@ const HeroContentBox = () => {
         ]}
         wrapper="span"
         cursor={false}
-        className="text-white text-2xl font-bold"
+        className="text-2xl font-bold text-white"
       />{' '}
       <TypeAnimation
         sequence={[
@@ -21,11 +21,11 @@ const HeroContentBox = () => {
         ]}
         wrapper="span"
         cursor={false}
-        className="text-orange-400 text-2xl font-bold"
+        className="text-2xl font-bold text-orange-400"
       />
-      <div className="max-w-[200px] mt-2">
-        <p className="text-white text-2xl font-bold">
-          I <span className="italic font-light">love</span>{' '}
+      <div className="mt-2 max-w-[200px]">
+        <p className="text-2xl font-bold text-white">
+          I <span className="font-light italic">love</span>{' '}
           <TypeAnimation
             sequence={[
               'to play a guitar 🎸', // Types 'One'
@@ -38,12 +38,12 @@ const HeroContentBox = () => {
             wrapper="span"
             cursor={true}
             repeat={Infinity}
-            className="text-orange-400 text-2xl font-bold"
+            className="text-2xl font-bold text-orange-400"
           />
         </p>
       </div>
       <div className="mt-5">
-        <p className="text-gray-400 text-2xl font-light">Let me show you...</p>
+        <p className="text-2xl font-light text-gray-400">Let me show you...</p>
       </div>
     </div>
   );

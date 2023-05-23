@@ -1,35 +1,61 @@
-import { useForm } from '@mantine/form';
+import { useForm, isEmail, hasLength } from '@mantine/form';
+import TextInput from '../TextInput';
+import TextArea from '../TextArea';
+import Button from '../Button';
 
 const GetInTouch = () => {
   const form = useForm({
     initialValues: {
       name: '',
       email: '',
-      subject: '',
       message: ''
     },
     validate: {
-      name: (value) => value.trim().length < 2,
-      email: (value) => !/^\S+@\S+$/.test(value),
-      subject: (value) => value.trim().length === 0
+      name: hasLength({ min: 2, max: 10 }, 'Name must be 2-10 characters long'),
+      email: isEmail('Invalid email'),
+      message: hasLength({ min: 10, max: 50 }, 'Message must be 10-50 characters long')
     }
   });
 
+  const handleSubmit = form.onSubmit((values) => {
+    console.log('test');
+    console.log({ values });
+  });
+
   return (
-    <form onSubmit={form.onSubmit(() => {})}>
-      <h3 className="title">Get in touch</h3>
+    <>
       <div className="flex flex-col gap-y-3">
         <div className="flex flex-col gap-y-2 text-neutral-300">
-          <label for="html" value="HTML">
-            Name
-          </label>
-          <input
-            type="text"
-            class="w-full border border-gray-300 px-4 py-2 outline-transparent focus:border-2 focus:border-orange-500"
-          />
+          <div>
+            <div className="flex flex-col gap-y-3">
+              <TextInput
+                {...form.getInputProps('name')}
+                error={form.errors.name}
+                placeholder="John Doe"
+                label="Name"
+                withAsterisk
+              />
+              <TextInput
+                {...form.getInputProps('email')}
+                error={form.errors.email}
+                placeholder="johndoe@gmail.com"
+                label="Email"
+                withAsterisk
+              />
+              <TextArea
+                {...form.getInputProps('message')}
+                error={form.errors.message}
+                placeholder="Please send your message here..."
+                label="Message"
+                withAsterisk
+              />
+
+              <Button title="Submit" onClick={handleSubmit} />
+            </div>
+          </div>
         </div>
       </div>
-    </form>
+    </>
   );
 };
 

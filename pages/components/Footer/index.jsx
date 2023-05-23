@@ -21,6 +21,8 @@ const Footer = () => {
           <GetInTouch />
         </div>
       </div>
+
+      <p className="p-3 text-center text-white">{`© ${new Date().getFullYear()} All Rights Reserved`}</p>
     </footer>
   );
 };
