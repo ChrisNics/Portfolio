@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Rest Countries Api with color scheme switcher",
+    "technologies": "#next, #react, #tailwind",
+    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685353162/Rest_Countries_API_with_color_theme_switcher_u5gdzy.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685353162/Screenshot_2023-05-29_at_17-37-13_https___rest-countries-api-chrisnics.vercel.app_vwvtek.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685353162/Screenshot_2023-05-29_at_17-38-31_https___rest-countries-api-chrisnics.vercel.app_fl7dqb.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685353162/Screenshot_2023-05-29_at_17-38-07_https___rest-countries-api-chrisnics.vercel.app_ehpzmt.png"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1685353162/Rest_Countries_API_with_color_theme_switcher_u5gdzy.png",
+    "websiteUrl": "https://rest-countries-api-chrisnics.vercel.app/",
+    "codeUrl": "https://github.com/ChrisNics/REST-Countries-API"
+  },
+  {
+    "title": "Results Summary Component",
+    "technologies": "#next, #react, #tailwind",
+    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685366694/Screenshot_2023-05-29_at_21-23-02_Results_Summary_Component_hvbkfw.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685366694/Results_Summary_Component_i0wtub.png"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1685366694/Screenshot_2023-05-29_at_21-23-02_Results_Summary_Component_hvbkfw.png",
+    "websiteUrl": "https://results-summary-component-chrisnics.vercel.app/",
+    "codeUrl": "https://github.com/ChrisNics/results-summary-component"
+  },
+  {
+    "title": "Age Calculator App",
+    "technologies": "#next, #react, #tailwind",
+    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367372/Screenshot_2023-05-29_at_21-33-34_Age_Calculator_App_orr1m9.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367372/Screenshot_2023-05-29_at_21-33-07_Age_Calculator_App_xwk9yp.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367372/Screenshot_2023-05-29_at_21-34-51_Age_Calculator_App_ifpedb.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367372/Screenshot_2023-05-29_at_21-34-02_Age_Calculator_App_nror5h.png"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367372/Screenshot_2023-05-29_at_21-33-34_Age_Calculator_App_orr1m9.png",
+    "websiteUrl": "https://results-summary-component-chrisnics.vercel.app/",
+    "codeUrl": "https://age-calculator-app-chrisnics.vercel.app/"
+  },
+  {
+    "title": "Bookmark Landing Page",
+    "technologies": "#scss, #bem, #html, #css, #javascript",
+    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367805/Screenshot_2023-05-29_at_21-39-49_Frontend_Mentor_Bookmark_landing_page_cnfumm.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367804/Screenshot_from_2023-05-29_21-41-14_wpsrvg.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367804/Screenshot_from_2023-05-29_21-41-27_brezy4.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367978/Screenshot_from_2023-05-29_21-41-50_ockif1.png"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367805/Screenshot_2023-05-29_at_21-39-49_Frontend_Mentor_Bookmark_landing_page_cnfumm.png",
+    "websiteUrl": "https://chrisnics.github.io/Bookmark-landing-page/",
+    "codeUrl": "https://github.com/ChrisNics/Bookmark-landing-page"
+  },
+  {
+    "title": "Sclique",
+    "technologies": "#mantine, #zustand, #next.js, #react, #html, #css, #antd",
+    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368495/Screenshot_2023-05-29_at_21-54-11_Sign_In_qissx7.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368495/Screenshot_2023-05-29_at_21-54-01_Sign_In_ybont0.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368497/Screenshot_2023-05-29_at_21-49-36_Shop_jzd0j5.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368496/Screenshot_2023-05-29_at_21-49-19_Sclique_Online_Store_myq3km.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368496/Screenshot_2023-05-29_at_21-49-02_Sclique_Online_Store_qpikcf.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368494/Screenshot_from_2023-05-29_21-50-34_wcmhsp.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368494/Screenshot_from_2023-05-29_21-50-55_mcejf6.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368495/Screenshot_2023-05-29_at_21-52-23_https___sclique.store_kvzon1.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368494/Screenshot_2023-05-29_at_21-52-48_https___sclique.store_dfnr0k.png"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368495/Screenshot_2023-05-29_at_21-54-11_Sign_In_qissx7.png",
+    "websiteUrl": "https://sclique.store/",
+    "codeUrl": "https://github.com/ChrisNics/rnj-sclique"
+  }
+]

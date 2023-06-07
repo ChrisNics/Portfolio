@@ -2,9 +2,27 @@ import SocialMedia from './SocialMedia';
 import {
   IconBrandGithubFilled,
   IconBrandFacebookFilled,
-  IconBrandTwitter
+  IconBrandLinkedin
 } from '@tabler/icons-react';
 import GetInTouch from './GetInTouch';
+
+const socialMedia = [
+  {
+    icon: <IconBrandFacebookFilled size="1.2rem" />,
+    link: 'https://www.facebook.com/BLGKingdom',
+    title: '@BLGKingdom'
+  },
+  {
+    icon: <IconBrandLinkedin size="1.2rem" />,
+    link: 'https://www.linkedin.com/in/nicolas-christian-994a25276/',
+    title: '@nicolas-christian-994a25276'
+  },
+  {
+    icon: <IconBrandGithubFilled size="1.2rem" />,
+    link: 'https://github.com/ChrisNics',
+    title: '@ChrisNics'
+  }
+];
 
 const Footer = () => {
   return (
@@ -12,9 +30,9 @@ const Footer = () => {
       <div className="container mx-auto p-10">
         <h3 className="mb-5 text-white">Find me on:</h3>
         <div className="flex flex-col gap-y-5">
-          <SocialMedia icon={<IconBrandGithubFilled />} title="@chrisnics" />
-          <SocialMedia icon={<IconBrandFacebookFilled />} title="@smeb" />
-          <SocialMedia icon={<IconBrandTwitter />} title="@smebber" />
+          {socialMedia.map((s) => (
+            <SocialMedia icon={s.icon} title={s.title} href={s.link} key={s.link} />
+          ))}
         </div>
 
         <div className="mt-10">

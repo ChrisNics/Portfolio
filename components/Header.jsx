@@ -42,7 +42,7 @@ const Header = () => {
     <header className="relative h-16 bg-transparent">
       {opened && <MobileNavigation />}
       <div className="flex justify-between p-5">
-        <h2 className="z-30 text-white">Logo</h2>
+        <h2 className="z-30 text-white">PORTFOLIO</h2>
 
         <ul className="mr-10 hidden gap-x-10  text-white lg:flex">
           {links.map((link) => (

@@ -1,6 +1,7 @@
 import { Roboto } from 'next/font/google';
 import './globals.css';
 import { MantineProvider } from '@mantine/core';
+import { Notifications } from '@mantine/notifications';
 
 import dynamic from 'next/dynamic';
 
@@ -18,6 +19,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <MantineProvider withGlobalStyles withNormalizeCSS>
+        <Notifications />
         <main className={`${roboto.variable} font-sans`}>
           <AnimatedCursor />
           <Component {...pageProps} />
