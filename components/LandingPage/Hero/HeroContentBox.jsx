@@ -28,7 +28,7 @@ const HeroContentBox = () => {
           I{' '}
           <TypeAnimation
             sequence={[
-              'am Web Developer 👨‍💻', // Deletes 'One' and types 'Two'
+              'am a Web Developer 👨‍💻', // Deletes 'One' and types 'Two'
               4000, // Waits 1s
               'enjoy playing the guitar. 🎸', // Types 'One'
               6000, // Waits 2s

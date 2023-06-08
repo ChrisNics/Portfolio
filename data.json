@@ -16,7 +16,7 @@
   {
     "title": "Results Summary Component",
     "technologies": "#next, #react, #tailwind",
-    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "descriptions": "I commend the exceptional design provided by Front-end Mentor, which I have successfully transformed into a fully functional website. I embraced this challenge as an opportunity to enhance my FrontEnd skills. The outcome is an impressive Result Summary Component, which can be seamlessly integrated into various web applications as a reusable component.",
     "images": [
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685366694/Screenshot_2023-05-29_at_21-23-02_Results_Summary_Component_hvbkfw.png",
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685366694/Results_Summary_Component_i0wtub.png"
@@ -28,7 +28,7 @@
   {
     "title": "Age Calculator App",
     "technologies": "#next, #react, #tailwind",
-    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "descriptions": "The Age Calculator Application allows you to accurately determine your current age by inputting the relevant information. It boasts an extensive and robust validation system, ensuring the accuracy and reliability of the results.",
     "images": [
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367372/Screenshot_2023-05-29_at_21-33-34_Age_Calculator_App_orr1m9.png",
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367372/Screenshot_2023-05-29_at_21-33-07_Age_Calculator_App_xwk9yp.png",
@@ -42,7 +42,7 @@
   {
     "title": "Bookmark Landing Page",
     "technologies": "#scss, #bem, #html, #css, #javascript",
-    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "descriptions": "This design originates from FrontEndmentor, and I initiated the project using SCSS. As I was not yet familiar with React at the time of building this project, I decided to leverage my existing skills. Consequently, this marks a significant milestone as my first completed project on Front End Mentor.",
     "images": [
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367805/Screenshot_2023-05-29_at_21-39-49_Frontend_Mentor_Bookmark_landing_page_cnfumm.png",
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685367804/Screenshot_from_2023-05-29_21-41-14_wpsrvg.png",
@@ -56,7 +56,7 @@
   {
     "title": "Sclique",
     "technologies": "#mantine, #zustand, #next.js, #react, #html, #css, #antd",
-    "descriptions": "This is a Project where you can search for a specific country, showcasing various details such as population, region, capital, and more. It is built with Next.js, React, and Tailwind. The project design is sourced from Frontend Mentor, a website aimed at enhancing both your frontend and backend skills.",
+    "descriptions": "Introducing our proposed Capstone project, a comprehensive multi-vendor e-commerce website. Notably, this platform features an integrated admin panel, developed in-house without relying on third-party libraries. The primary focus of this e-commerce platform revolves around offering a wide range of interior design products, including items such as windows blinds, accordions, and more.",
     "images": [
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368495/Screenshot_2023-05-29_at_21-54-11_Sign_In_qissx7.png",
       "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368495/Screenshot_2023-05-29_at_21-54-01_Sign_In_ybont0.png",
@@ -71,5 +71,28 @@
     "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1685368495/Screenshot_2023-05-29_at_21-54-11_Sign_In_qissx7.png",
     "websiteUrl": "https://sclique.store/",
     "codeUrl": "https://github.com/ChrisNics/rnj-sclique"
+  },
+  {
+    "title": "Bid4Paws",
+    "technologies": "#mantine, #zustand, #next.js, #react, #html, #css, #tailwindcss, #nextauth",
+    "descriptions": "Our proposed system resembles a \"Tinder for dogs\" concept, aiming to assist breeders in finding suitable matches for their dogs based on specific criteria and preferences. Designed as a major project for our university, this platform offers a convenient solution for breeders seeking compatible mates for their dogs, whether they have particular breed preferences or specific requirements in mind.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194729/Screenshot_from_2023-06-08_11-17-49_iqthxh.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194729/Screenshot_from_2023-06-08_11-18-04_zfoqsi.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194728/Screenshot_from_2023-06-08_11-18-32_aadjms.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194728/Screenshot_from_2023-06-08_11-18-59_bdoqlq.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194728/Screenshot_from_2023-06-08_11-19-02_jxocg8.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194728/Screenshot_from_2023-06-08_11-18-43_rdiqau.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194728/Screenshot_from_2023-06-08_11-18-48_naqisr.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194728/Screenshot_from_2023-06-08_11-19-24_nmjors.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194727/Screenshot_from_2023-06-08_11-19-28_etq4se.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194727/Screenshot_from_2023-06-08_11-21-35_w77th3.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194727/Screenshot_from_2023-06-08_11-21-42_m4u4zg.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194727/Screenshot_from_2023-06-08_11-22-09_xe7o9u.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194727/Screenshot_from_2023-06-08_11-22-18_nddiyo.png"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194729/Screenshot_from_2023-06-08_11-17-49_iqthxh.png",
+    "websiteUrl": "https://bid4-paws.vercel.app/",
+    "codeUrl": "https://github.com/ChrisNics/Bid4Paws"
   }
 ]
