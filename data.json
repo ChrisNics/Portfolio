@@ -14,6 +14,24 @@
     "codeUrl": "https://github.com/ChrisNics/REST-Countries-API"
   },
   {
+    "title": "Rock,Paper,Scissor, Spock, and Lizard",
+    "technologies": "#next, #react, #tailwind",
+    "descriptions": "Introducing an innovative application that goes beyond the traditional paper, scissors, and rock game. We have taken it to the next level by incorporating Spock and lizards into the mix. This exciting challenge comes from FrontEndMentor.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757110/Screenshot_2023-06-14_at_23-35-28_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_hifmwh.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757110/Screenshot_2023-06-14_at_23-34-45_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_m6ouqa.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757109/Screenshot_2023-06-14_at_23-35-39_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_u86lkh.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757109/Screenshot_2023-06-14_at_23-35-47_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_ysg6hn.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757109/Screenshot_2023-06-14_at_23-35-59_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_diarza.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757109/Screenshot_2023-06-14_at_23-36-13_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_fxm3ln.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757108/Screenshot_2023-06-14_at_23-36-58_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_j9rtf5.png",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757108/Screenshot_2023-06-14_at_23-36-51_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_wyc8ip.png"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1686757110/Screenshot_2023-06-14_at_23-35-28_ChrisNics_Rock_-_Paper_-_Scissor_-_Spock_-_Lizard_hifmwh.png",
+    "websiteUrl": "https://rock-paper-scissor-spock-lizard.chrisnics.vercel.app/",
+    "codeUrl": "https://github.com/ChrisNics/Rock-Paper-Scissor-Spock-Lizard"
+  },
+  {
     "title": "Results Summary Component",
     "technologies": "#next, #react, #tailwind",
     "descriptions": "I commend the exceptional design provided by Front-end Mentor, which I have successfully transformed into a fully functional website. I embraced this challenge as an opportunity to enhance my FrontEnd skills. The outcome is an impressive Result Summary Component, which can be seamlessly integrated into various web applications as a reusable component.",
