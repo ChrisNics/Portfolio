@@ -26,7 +26,7 @@ const socialMedia = [
 
 const Footer = () => {
   return (
-    <footer id="find-me" className="bg-neutral-800">
+    <footer id="find-me" className="bg-neutral-800 xl:p-20">
       <div className="container mx-auto p-10">
         <h3 className="mb-5 text-white">Find me on:</h3>
         <div className="flex flex-col gap-y-5">
