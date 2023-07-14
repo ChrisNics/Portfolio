@@ -112,5 +112,29 @@
     "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1686194729/Screenshot_from_2023-06-08_11-17-49_iqthxh.png",
     "websiteUrl": "https://bid4-paws.vercel.app/",
     "codeUrl": "https://github.com/ChrisNics/Bid4Paws"
+  },
+  {
+    "title": "Advice Generator",
+    "technologies": "#tailwind #vite #react",
+    "descriptions": "I have undertaken a project from Frontend Mentor, which involves the creation of an advice generator application. This application is designed to provide random advice to users upon clicking a dice.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1689323549/Web_capture_14-7-2023_163047_advice-generator-chrisnics.vercel.app_bkh8ez.jpg",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1689323549/Web_capture_14-7-2023_163112_advice-generator-chrisnics.vercel.app_eqewyv.jpg"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1689323549/Web_capture_14-7-2023_163047_advice-generator-chrisnics.vercel.app_bkh8ez.jpg",
+    "websiteUrl": "https://advice-generator-chrisnics.vercel.app/",
+    "codeUrl": "https://github.com/ChrisNics/advice-generator"
+  },
+  {
+    "title": "Sunnyside Landing Page",
+    "technologies": "#tailwind #vite #react",
+    "descriptions": "I have designed and implemented a responsive landing page called \"Sunny Side Landing Page\". This page is optimized to provide an optimal viewing experience across a variety of devices, including desktops, laptops, tablets, and mobile phones.",
+    "images": [
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1689323550/Web_capture_14-7-2023_163145_chrisnics.github.io_aw7dry.jpg",
+      "https://res.cloudinary.com/dj6gipxny/image/upload/v1689323549/Web_capture_14-7-2023_163211_chrisnics.github.io_cbnbgx.jpg"
+    ],
+    "heroImage": "https://res.cloudinary.com/dj6gipxny/image/upload/v1689323550/Web_capture_14-7-2023_163145_chrisnics.github.io_aw7dry.jpg",
+    "websiteUrl": "https://chrisnics.github.io/sunnyside/",
+    "codeUrl": "https://github.com/ChrisNics/sunnyside"
   }
 ]
